@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Developed by Marloes Veger 2021 -->
+    <title>Contact Maleficent</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body class="body">
+    <header>
+        <figure><img width="100%" src="IMG/toplogo2.png">
+            <figcaption class="text">You look lovely today</figcaption>
+        </figure>
+        <nav>
+            <div class="list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="kapsalon.html">Kapsalon</a></li>
+                    <li><a href="visagie.html">Visagie</a></li>
+                    <li><a href="nagelsalon.html">Nagelsalon</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="introductie">
+            <h1>Contact Maleficent:</h1>
+        </section>
+        <section class="contact">
+            <div class="priceborder">
+                <p class="quotes">Afspraak maken:</p>
+                <table>
+                    <tr>
+                        <td>U kunt ons telefonisch bereiken op:</td>
+                        <td>012-3456789</td>
+                    </tr>
+                    <tr>
+                        <td>U kunt ons mailen op:</td>
+                        <td>boompjes@bos.nl</td>
+                    </tr>
+                </table>
+                <p>U kunt ook een afspraak online maken door het volgende formulier in te vullen:</p>
+                <form name="contact" method="post" data-netlify="true">
+                    <table>
+                        <tr>
+                            <td>Voornaam:</td>
+                            <td><input type="text" id="voornaam" name="voornaam"></td>
+                        </tr>
+                        <tr>
+                            <td>Achternaam:</td>
+                            <td><input type="text" id="achternaam" name="achternaam"></td>
+                        </tr>
+                        <tr>
+                            <td>Telefoonnummer:</td>
+                            <td><input type="tel" id="phone" name="phone"></td>
+                        </tr>
+                        <tr>
+                            <td>E-mailadres:</td>
+                            <td><input type="email" id="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td>In welke salon wilt u een afspraak maken?</td>
+                            <td><label>Kapsalon</label><br><input type="radio" id="kapsalon" name="kapsalon"><br>
+                                <label>Visagie</label><br><input type="radio" id="visagie" name="visagie"><br>
+                                <label>Nagelsalon</label><br><input type="radio" id="nagelsalon" name="nagelsalon">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Behandeling:</td>
+                            <td><select name="behandeling" id="behandeling">
+                                    <option value="knippen">Knippen</option>
+                                    <option value="verven">Verven</option>
+                                    <option value="knippen en verven">Knippen en verven</option>
+                                    <option value="permanent">Permanent/watergolf</option>
+                                    <option value="knippen en permanent">Knippen en verven</option>
+                                    <option value="make-up">Make-up</option>
+                                    <option value="nieuwe acrylnagels">Nieuwe acrylnagels</option>
+                                    <option value="bijvullen acrylnagels">Bijvullen acrylnagels</option>
+                                    <option value="nagels lakken">Nagels lakken</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gewenste datum:</td>
+                            <td><input type="date" id="date" name="date" min="today"></td>
+                        </tr>
+                        <tr>
+                            <td>Gewenste tijdstip:</td>
+                            <td><input type="time" id="time" name="time"></td>
+                        </tr>
+                        <tr>
+                            <td>Opmerkingen:</td>
+                            <td><textarea id="opmerkingen" name="opmerkingen"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Verzenden:</td>
+                            <td><input type="submit" name="verzenden"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <p class="center link">U ontvangt zo spoedig mogelijk per e-mail een bevestiging voor uw gemaakte
+                reservering.
+            </p>
+        </section>
+    </main>
+    <footer class="bottom">
+        <figure><img width="100%" src="IMG/bottomlogo.png"></figure>
+        <ul>
+            <li>Adres: Appelboom 1</li>
+            <li>1111 AA Boomgaarde</li>
+            <li>Tel.: 012-3456789</li>
+            <li>E-mailadres: boompjes@bos.nl</li>
+        </ul>
+        <nav>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><img width="40px" src="IMG/facebook.png"></a>
+                    Volg ons op Facebook</li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img width="45px" src="IMG/instagram.png"></a>
+                    Volg ons op Instagram</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
